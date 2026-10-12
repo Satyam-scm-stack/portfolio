@@ -175,7 +175,7 @@ const PROJECTS = [
       "Project go-ahead approved on 10 Jan 2024. The proposal set the objective as cutting Mumbai dedicated-vehicle TAT by 4 hours, with no additional investment.",
       "Savings sign-off: on 19 Jan 2024 the projected saving of about ₹13 Mn, from a reduction in the fixed vehicle count, was sent for approval. Pawan Kumar, Finance head, confirmed it."
     ],
-    files: [["Live Transit TAT dashboard", "https://krsatyam112.github.io/TRANSIT-TAT-FROM-GATE-TRANSACTION/"]]
+    files: [["Live Transit TAT dashboard", "https://satyam-scm-stack.github.io/TRANSIT-TAT-FROM-GATE-TRANSACTION"]]
   },
   {
     id: "ecrs", title: "eCRS: System-driven Distributor Replenishment", period: "Jul 2024 to Dec 2024", status: "Deployed", team: 80,
@@ -202,8 +202,8 @@ const PROJECTS = [
 ];
 
 const TOOLS = [
-  { t: "Truck Requirement Builder", d: "Web app that turns weekly volume, variance and skewness into a fleet requirement and a week-by-week execution plan.", href: "https://krsatyam112.github.io/fleet-execution-plan/", label: "Open live tool" },
-  { t: "Transit TAT Dashboard", d: "In-house control tower. Reads gate-register or TMS logs, stitches legs into round trips, and tracks TAT, SLA adherence, defaulters and idle time with drilldowns and export.", href: "https://krsatyam112.github.io/TRANSIT-TAT-FROM-GATE-TRANSACTION/", label: "Open live dashboard" },
+  { t: "Truck Requirement Builder", d: "Web app that turns weekly volume, variance and skewness into a fleet requirement and a week-by-week execution plan.", href: "https://satyam-scm-stack.github.io/fleet-execution-plan", label: "Open live tool" },
+  { t: "Transit TAT Dashboard", d: "In-house control tower. Reads gate-register or TMS logs, stitches legs into round trips, and tracks TAT, SLA adherence, defaulters and idle time with drilldowns and export.", href: "https://satyam-scm-stack.github.io/TRANSIT-TAT-FROM-GATE-TRANSACTION", label: "Open live dashboard" },
   { t: "White paper: depot location and customer assignment", d: "Independent paper (30 July 2025). Places four depots for 252 customers in Kerala using k-means++ and Haversine distance, maximising coverage within 100 km.", href: "assets/files/depot-location-white-paper.pdf", label: "Read the PDF" },
   { t: "CS50: Flappy Bird in Scratch", d: "Project from Harvard's CS50 for Business Professionals: events, loops, conditionals, motion and collision detection.", href: "https://scratch.mit.edu/projects/689124323", label: "Play it" }
 ];
