@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Satyam Kumar | Logistics &amp; Supply Chain Planning</title>
+<meta name="description" content="Portfolio of Satyam Kumar, Zonal Manager Logistics (Maharashtra &amp; Goa): network design, fleet and rate optimisation, planning tools and Six Sigma work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#top">Satyam Kumar</a>
+  <nav aria-label="Sections">
+    <a href="#projects">Projects</a>
+    <a href="#tools">Tools &amp; paper</a>
+    <a href="#recognition">Recognition</a>
+    <a href="#credentials">Credentials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="role">Zonal Manager, Logistics &middot; Hindustan Coca-Cola Beverages</p>
+      <h1>I plan how beverages move across Maharashtra&nbsp;&amp;&nbsp;Goa, and take cost out of every lane.</h1>
+      <p class="lede">Seven depots, a large dedicated fleet, and a habit of turning spreadsheets into Python, dashboards and business cases that get approved. Seven projects below, each with the problem, what I did and what changed.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See the projects</a>
+        <a class="btn" href="#recognition">Read what leaders wrote</a>
+      </div>
+    </div>
+    <figure class="net" aria-label="Animated depot and lane network">
+      <svg viewBox="0 0 520 440" role="img" aria-labelledby="neta">
+        <title id="neta">Hub and spoke network: a plant feeding depots, which feed customers along lanes</title>
+        <g class="lanes" fill="none" stroke-linecap="round">
+          <path class="l" d="M70 220 C150 220 170 110 250 110"/>
+          <path class="l" d="M70 220 C150 220 170 220 250 220"/>
+          <path class="l" d="M70 220 C150 220 170 330 250 330"/>
+          <path class="l thin" d="M250 110 C320 110 340 60 430 60"/>
+          <path class="l thin" d="M250 110 C320 110 350 130 430 140"/>
+          <path class="l thin" d="M250 220 C320 220 350 200 430 210"/>
+          <path class="l thin" d="M250 220 C330 220 350 270 430 280"/>
+          <path class="l thin" d="M250 330 C320 330 350 350 430 360"/>
+          <path class="l thin" d="M250 330 C320 330 340 400 430 405"/>
+        </g>
+        <g class="cust"><circle cx="430" cy="60" r="6"/><circle cx="430" cy="140" r="6"/><circle cx="430" cy="210" r="6"/><circle cx="430" cy="280" r="6"/><circle cx="430" cy="360" r="6"/><circle cx="430" cy="405" r="6"/></g>
+        <g class="depot"><rect x="236" y="96" width="28" height="28" rx="3"/><rect x="236" y="206" width="28" height="28" rx="3"/><rect x="236" y="316" width="28" height="28" rx="3"/></g>
+        <g class="plant"><circle cx="70" cy="220" r="26"/><text x="70" y="225" text-anchor="middle">Plant</text></g>
+        <text class="cap" x="250" y="82" text-anchor="middle">Depots</text>
+        <text class="cap" x="430" y="38" text-anchor="middle">Customers</text>
+      </svg>
+      <figcaption>Primary freight to depots, secondary freight to customers. Every project here moves one of those two legs.</figcaption>
+    </figure>
+  </section>
+
+  <section class="numbers" aria-label="Headline results">
+    <dl id="kpis"></dl>
+    <p class="fine">Figures as recorded in my own project template. Savings are annual.</p>
+  </section>
+
+  <section id="projects" class="block">
+    <h2>Projects</h2>
+    <p class="intro">Open any row for the full case study: problem, approach, results and files.</p>
+    <ol id="project-list" class="plist"></ol>
+  </section>
+
+  <section id="tools" class="block">
+    <h2>Tools and published work</h2>
+    <div id="tool-grid" class="tools"></div>
+  </section>
+
+  <section id="recognition" class="block">
+    <h2>Recognition from leaders</h2>
+    <p class="intro">Certificates of recognition issued through the company programme, shown with who gave them and why.</p>
+    <div id="award-list" class="awards"></div>
+  </section>
+
+  <section id="credentials" class="block">
+    <h2>Credentials and skills</h2>
+    <div class="cred-wrap">
+      <div id="cert-list" class="certs"></div>
+      <div id="skills" class="skills"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="block contact">
+    <h2>Contact</h2>
+    <p class="intro">Based in Mumbai. Open to conversations on logistics strategy, transportation planning and SAP TM.</p>
+    <p id="contact-links" class="links"></p>
+  </section>
+</main>
+
+<footer><span>&copy; <span id="yr"></span> Satyam Kumar</span><span>Project figures are from my own work records and are shared for portfolio purposes.</span></footer>
+
+<dialog id="case" aria-labelledby="case-title">
+  <article>
+    <button class="close" type="button" aria-label="Close case study">Close</button>
+    <div id="case-body"></div>
+  </article>
+</dialog>
+
+<dialog id="viewer" class="viewer" aria-label="Certificate">
+  <button class="close" type="button" aria-label="Close image">Close</button>
+  <img id="viewer-img" alt="">
+</dialog>
+
+<script src="main.js"></script>
+</body>
+</html>
