@@ -2,8 +2,8 @@
    EDIT THIS BLOCK to change what the site says. No build step.
    ========================================================== */
 const CONFIG = {
-  github: "https://github.com/krsatyam112",
-  linkedin: "",   // paste your profile URL, e.g. "https://www.linkedin.com/in/your-handle"  (hidden while empty)
+  github: "https://github.com/Satyam-scm-stack",
+  linkedin: "",   // paste your profile URL, e.g. "https://www.linkedin.com/in/satyam-k"  (hidden while empty)
   email: "kr.satyam112@gmail.com",
   phone: "+91-6370178077",
   location: "Mumbai, India"
