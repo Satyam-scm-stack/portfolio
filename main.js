@@ -3,7 +3,7 @@
    ========================================================== */
 const CONFIG = {
   github: "https://github.com/Satyam-scm-stack",
-  linkedin: "https://www.linkedin.com/in/satyam-k",   // paste your profile URL, e.g. "https://www.linkedin.com/in/satyam-k"  (hidden while empty)
+  linkedin: "https://www.linkedin.com/in/satyam-k",
   email: "kr.satyam112@gmail.com",
   phone: "+91-6370178077",
   location: "Mumbai, India"
@@ -307,7 +307,7 @@ document.addEventListener("click", (e) => { const i = e.target.closest("[data-zo
 const contact = [
   ["Email", CONFIG.email, "mailto:" + CONFIG.email],
   ["Phone", CONFIG.phone, "tel:" + CONFIG.phone.replace(/[^+\d]/g, "")],
-  ["LinkedIn", CONFIG.linkedin && "Open profile", CONFIG.linkedin],
+  ["LinkedIn", CONFIG.linkedin , CONFIG.linkedin],
   ["GitHub", "Satyam-scm-stack", CONFIG.github],
   ["Location", CONFIG.location, ""]
 ].filter((x) => x[1]);
