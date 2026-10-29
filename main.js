@@ -209,18 +209,18 @@ const TOOLS = [
 ];
 
 const AWARDS = [
-  { img: "assets/awards/network-leadership.jpg", behavior: "Network Leadership", award: "Above and Beyond", pts: "1000 points", from: "Alok Sharma", fromRole: "Executive Director", date: "28 Dec 2023",
+  { img: "network-leadership.jpg", behavior: "Network Leadership", award: "Above and Beyond", pts: "1000 points", from: "Alok Sharma", fromRole: "Executive Director", date: "28 Dec 2023",
     quote: "Thank you for your outstanding contribution in facilitating planning and closure of manning requirements for new lines & also the capability building of the incumbents…" },
-  { img: "assets/awards/ecrs-above-and-beyond.jpg", behavior: "Agile", award: "Above and Beyond", pts: "500 points", from: "Dinesh Jadhav", fromRole: "Global VP", date: "29 Jun 2024",
+  { img: "ecrs-above-and-beyond.jpg", behavior: "Agile", award: "Above and Beyond", pts: "500 points", from: "Dinesh Jadhav", fromRole: "Global VP", date: "29 Jun 2024",
     quote: "Thank you for your excellent support in supporting and driving distributor replenishment and overcoming the challenges of a startup operating model…" },
-  { img: "assets/awards/efficiency-ongoing-impact.jpg", behavior: "Efficiency", award: "Ongoing Impact", pts: "500 points", from: "Richard Smith", fromRole: "Zonal Sales VP", date: "10 Jul 2024",
+  { img: "efficiency-ongoing-impact.jpg", behavior: "Efficiency", award: "Ongoing Impact", pts: "500 points", from: "Richard Smith", fromRole: "Zonal Sales VP", date: "10 Jul 2024",
     quote: "Satyam great job in H1, keep up the excellent work! Thankyou" },
-  { img: "assets/awards/rivigo-wow-surprise-award.jpg", award: "WOW Surprise Award", from: "Rivigo", fromRole: "", date: "15 Apr 2019", altText: "Certificate of Recognition: WOW Surprise Award, Rivigo, 15 April 2019" }
+  { img: "rivigo-wow-surprise-award.jpg", award: "WOW Surprise Award", from: "Rivigo", fromRole: "", date: "15 Apr 2019", altText: "Certificate of Recognition: WOW Surprise Award, Rivigo, 15 April 2019" }
 ];
 
 const CERTS = [
-  { img: "assets/certs/sap-tm.jpg", t: "SAP S/4HANA Cloud Public Edition, Transportation Management", s: "SAP · Intermediate · Record of Achievement" },
-  { img: "assets/certs/cs50.jpg", t: "CS50 Computer Science for Business Professionals", s: "Harvard University · 2022 to 2023 · six assignments", href: "https://cs50.harvard.edu/certificates/64ef5344-e8e2-4d61-9181-cc5e204f0357" },
+  { img: "sap-tm.jpg", t: "SAP S/4HANA Cloud Public Edition, Transportation Management", s: "SAP · Intermediate · Record of Achievement" },
+  { img: "cs50.jpg", t: "CS50 Computer Science for Business Professionals", s: "Harvard University · 2022 to 2023 · six assignments", href: "https://cs50.harvard.edu/certificates/64ef5344-e8e2-4d61-9181-cc5e204f0357" },
   { t: "Certified Lean Six Sigma Green Belt", s: "ASCB-USA" },
   { t: "B.Tech, Electrical Engineering", s: "KIIT University · 2014 to 2018" }
 ];
