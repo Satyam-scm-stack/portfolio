@@ -108,7 +108,7 @@ const PROJECTS = [
       "Optimised depot placement lowers final-mile cost, accepting more primary freight and warehousing, and the business case shows the net effect."
     ],
     stack: ["Python", "Pandas / NumPy", "Scikit-learn", "K-Means", "DBSCAN", "GeoPandas", "Geopy", "Folium", "Excel business case"],
-    files: [["Python code (depot clustering)", "assets/files/depot_optimization.py"], ["White paper (PDF)", "assets/files/depot-location-white-paper.pdf"]]
+    files: [["Python code (depot clustering)", "adepot_optimization.py"], ["White paper (PDF)", "adepot-location-white-paper.pdf"]]
   },
   {
     id: "rate", title: "Rate Optimisation & Reverse Auction", period: "Jul 2025 to Sep 2025", status: "Live operations", team: 35,
@@ -149,7 +149,7 @@ const PROJECTS = [
       "Capacity can be reviewed per day and per truck type in both seasons."
     ],
     stack: ["Python", "Pandas", "Rule-based allocation", "Excel export"],
-    files: [["Python code (PDP)", "assets/files/pdp.py"]]
+    files: [["Python code (PDP)", "apdp.py"]]
   },
   {
     id: "sixsigma", title: "Customer TAT Reduction, Six Sigma Green Belt", period: "West Cluster, Mumbai", status: "Completed", team: null,
@@ -204,7 +204,7 @@ const PROJECTS = [
 const TOOLS = [
   { t: "Truck Requirement Builder", d: "Web app that turns weekly volume, variance and skewness into a fleet requirement and a week-by-week execution plan.", href: "https://satyam-scm-stack.github.io/fleet-execution-plan", label: "Open live tool" },
   { t: "Transit TAT Dashboard", d: "In-house control tower. Reads gate-register or TMS logs, stitches legs into round trips, and tracks TAT, SLA adherence, defaulters and idle time with drilldowns and export.", href: "https://satyam-scm-stack.github.io/TRANSIT-TAT-FROM-GATE-TRANSACTION", label: "Open live dashboard" },
-  { t: "White paper: depot location and customer assignment", d: "Independent paper (30 July 2025). Places four depots for 252 customers in Kerala using k-means++ and Haversine distance, maximising coverage within 100 km.", href: "assets/files/depot-location-white-paper.pdf", label: "Read the PDF" },
+  { t: "White paper: depot location and customer assignment", d: "Independent paper (30 July 2025). Places four depots for 252 customers in Kerala using k-means++ and Haversine distance, maximising coverage within 100 km.", href: "adepot-location-white-paper.pdf", label: "Read the PDF" },
   { t: "CS50: Flappy Bird in Scratch", d: "Project from Harvard's CS50 for Business Professionals: events, loops, conditionals, motion and collision detection.", href: "https://scratch.mit.edu/projects/689124323", label: "Play it" }
 ];
 
